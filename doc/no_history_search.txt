@@ -1,0 +1,17 @@
+*no_history_search.txt*  Interactive search without clogging history
+
+MAPPINGS                                     *no_history_search-mappings*
+
+<Plug>(no-history-/)           Like |/|
+<Plug>(no-history-?)           Like |?|
+
+OPTIONS                                      *no_history_search-options*
+
+g:no_history_search_prepend = {string}    or
+b:no_history_search_prepend = {string}
+
+Prepends the {string} to the search. I like "\<" |/\<|
+
+
+
+
